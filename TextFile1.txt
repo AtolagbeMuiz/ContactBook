@@ -1,0 +1,100 @@
+   //if (e.CommandName == "SelectContactID")
+                    //{
+                    //    txtname.Text = (e.CommandArgument.ToString());
+                    //    txtmobile.Text = (e.CommandArgument.ToString());
+                    //    txtaddress.Text = (e.CommandArgument.ToString());
+                    //}
+                    //////SqlDataAdapter sqldata = new SqlDataAdapter("ContactViewByID", sqlConn);
+                    //////sqldata.SelectCommand.CommandType = System.Data.CommandType.StoredProcedure;
+                    //////sqldata.SelectCommand.Parameters.AddWithValue("@ContactID", contactID);
+                    //////System.Data.DataTable dtbl = new System.Data.DataTable();
+
+                    //////hfcontactID.Value = contactID.ToString();
+                    //////txtname.Text = dtbl.Rows[0]["Name"].ToString();
+                    //////txtmobile.Text = dtbl.Rows[0]["Mobile"].ToString();
+                    //////txtaddress.Text = dtbl.Rows[0]["Addresss"].ToString();
+                    //////btnSave.Text = "Update";
+                    //////btnDelete.Enabled = false;
+
+
+
+					//////protected void lnk_OnClick(object sender, EventArgs e)
+        //////{
+        //////    //int contactID = Convert.ToInt32((sender as LinkButton).CommandArgument);
+
+
+        //////    // string contactID  = ((LinkButton)gvContact.FindControl("linkView")).Text;
+
+        //////    ///var kk=contactID.te
+        //////    //int contactID = Convert.ToInt32(e.CommandArgument.ToString());
+
+        //////    string contactID = Request["ContactID"];
+        //////    if (sqlConn.State == System.Data.ConnectionState.Closed)
+        //////        sqlConn.Open();
+        //////    //if (e.CommandName == "SelectContactID")
+        //////    //{
+        //////    //    txtname.Text = (e.CommandArgument.ToString());
+        //////    //    txtmobile.Text = (e.CommandArgument.ToString());
+        //////    //    txtaddress.Text = (e.CommandArgument.ToString());
+        //////    //}
+        //////    SqlDataAdapter sqldata = new SqlDataAdapter("ContactViewByID", sqlConn);
+        //////    sqldata.SelectCommand.CommandType = System.Data.CommandType.StoredProcedure;
+        //////    sqldata.SelectCommand.Parameters.AddWithValue("@ContactID", contactID);
+        //////    System.Data.DataTable dtbl = new System.Data.DataTable();
+        //////    sqlConn.Close();
+        //////    hfcontactID.Value = contactID.ToString();
+        //////    txtname.Text = dtbl.Rows[0]["Name"].ToString();
+        //////    txtmobile.Text = dtbl.Rows[0]["Mobile"].ToString();
+        //////    txtaddress.Text = dtbl.Rows[0]["Addresss"].ToString();
+        //////    btnSave.Text = "Update";
+        //////    btnDelete.Enabled = false;
+        //////}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		 //////protected void lnk_OnClick(object sender, EventArgs e)
+        //////{
+        //////    //int contactID = Convert.ToInt32((sender as LinkButton).CommandArgument);
+
+
+        //////    // string contactID  = ((LinkButton)gvContact.FindControl("linkView")).Text;
+
+        //////    ///var kk=contactID.te
+        //////    //int contactID = Convert.ToInt32(e.CommandArgument.ToString());
+
+        //////    string contactID = Request["ContactID"];
+        //////    if (sqlConn.State == System.Data.ConnectionState.Closed)
+        //////        sqlConn.Open();
+        //////    //if (e.CommandName == "SelectContactID")
+        //////    //{
+        //////    //    txtname.Text = (e.CommandArgument.ToString());
+        //////    //    txtmobile.Text = (e.CommandArgument.ToString());
+        //////    //    txtaddress.Text = (e.CommandArgument.ToString());
+        //////    //}
+        //////    SqlDataAdapter sqldata = new SqlDataAdapter("ContactViewByID", sqlConn);
+        //////    sqldata.SelectCommand.CommandType = System.Data.CommandType.StoredProcedure;
+        //////    sqldata.SelectCommand.Parameters.AddWithValue("@ContactID", contactID);
+        //////    System.Data.DataTable dtbl = new System.Data.DataTable();
+        //////    sqlConn.Close();
+        //////    hfcontactID.Value = contactID.ToString();
+        //////    txtname.Text = dtbl.Rows[0]["Name"].ToString();
+        //////    txtmobile.Text = dtbl.Rows[0]["Mobile"].ToString();
+        //////    txtaddress.Text = dtbl.Rows[0]["Addresss"].ToString();
+        //////    btnSave.Text = "Update";
+        //////    btnDelete.Enabled = false;
+        //////}
